@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    display: flex;
+    height: 100vh;
+    color: white;
+}
+
+#signin {
+    font-size: ;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+#left {
+    font-size: 16px;
+    background-color: #181818;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    background-color: #181818;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: #4184BE;
+    border-style: none;
+}
+
+.logo img {
+    max-width: 80%;
+}
+
+#links {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#links a {
+    display: block;
+    text-decoration: none;
+    color: deepskyblue;
+    margin: 10px;
+}
+
+.hr-bar {
+    width: 75%;
+}
+
+#main-footer {
+    color: hsla(0, 0, 100, 0.7);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+}
+
+#main-footer a {
+    color: white;
+    font-size: 12px;
+}
+
+p {
+    font-size: 12px;
+}
+
+#left .secondary-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    width: 75%;
+    background-color: #555555;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 7px 0;
+}
+
+#right .secondary-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    width: 75%;
+    background-color: #555555;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 7px 0;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+#showcase-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase-text {
+    font-size: 50px;
+}
